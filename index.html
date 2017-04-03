@@ -10,20 +10,21 @@
   <script> 
 $(document).ready(function(){
     $("button1").click(function(){
-        $("div").animate({right: '250px'});
+        $("p1").animate({right: '250px'});
     });
 });
     $(document).ready(function(){
     $("button2").click(function(){
-        $("div").animate({left: '250px'});
+        $("p1").animate({left: '250px'});
     });
 });
 </script> 
   <body>
+    <input type="button1" onclick="button_onClick()">
   <button id="button1">Start Animation</button>
     <button id="button2">Reset</button>
 
-    <div style="background:color_green;height:100px;width:100px;position:absolute;"><p>Hello</p></div>
+    <div style="background:color_green;height:100px;width:100px;position:absolute;"><p id="p1">Hello</p></div>
     
   
     <h1>The amazing world of Github</h1>
