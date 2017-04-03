@@ -9,19 +9,19 @@
   </head>
   <script> 
 $(document).ready(function(){
-    $("button").click(function(){
+    $("button1").click(function(){
         $("div").animate({right: '250px'});
     });
 });
     $(document).ready(function(){
-    $("button_2").click(function(){
+    $("button2").click(function(){
         $("div").animate({left: '250px'});
     });
 });
 </script> 
   <body>
-  <button>Start Animation</button>
-    <button_2>Reset</button_2>
+  <button id="button1">Start Animation</button>
+    <button id="button2">Reset</button>
 
     <div style="background:color_green;height:100px;width:100px;position:absolute;"><p>Hello</p></div>
     
